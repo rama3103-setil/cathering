@@ -1,0 +1,336 @@
+body {
+    padding-top: 56px; /* Compensate for fixed navbar */
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+img.img-fluid {
+    margin-bottom: 20px;
+}
+
+/* Banner Section */
+.banner-section {
+    background-image: url('gambar/banner.jpg'); /* Ganti dengan gambar banner yang sesuai */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    color: #fff;
+}
+
+.banner-section h1 {
+    font-weight: bold;
+    color: #ffde59; /* Warna teks judul */
+}
+
+.banner-section p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #f8f9fa; /* Warna teks deskripsi */
+}
+
+.banner-section .btn-primary {
+    background-color: #ff6f61;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.banner-section .btn-primary:hover {
+    background-color: #e8554f;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer p, .footer a {
+    font-size: 14px;
+}
+
+.footer .social-icons a {
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    color: #ffc107; /* Warna saat ikon di-hover */
+}
+
+.social-icons {
+    margin: 20px 0;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.1);
+  }
+  /* Styling for Contact Section */
+#contact-us {
+    background-color: #f9f9f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #contact-us h2 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .contact-block {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact-block:hover {
+    transform: translateY(-10px);
+  }
+  
+  .contact-block h4 {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .contact-block p {
+    color: #555;
+    font-size: 0.95rem;
+  }
+  
+  .contact-block a.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-top: 15px;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.3s;
+  }
+  
+  .social-icons a:hover img {
+    opacity: 0.7;
+  }
+  
+  @media (max-width: 768px) {
+    #contact-us h2 {
+      font-size: 1.5rem;
+    }
+    .contact-block p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Styling for Our Service Section */
+#our-services {
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #our-services h2 {
+    color: #343a40;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .service-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .service-card h4 {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    #our-services h2 {
+      font-size: 1.5rem;
+    }
+    .service-card p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Styling for Profile Section */
+#profile {
+    background-color: #f9f9f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #profile h2 {
+    color: #343a40;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .profile-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .profile-card h4 {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .profile-card p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  @media (max-width: 768px) {
+    #profile h2 {
+      font-size: 1.5rem;
+    }
+    .profile-card p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Styling for Gallery Section */
+#gallery {
+    background-color: #f0f0f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #gallery h2 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .gallery-card {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-card:hover img {
+    transform: scale(1.1);
+  }
+  
+  .gallery-desc {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    transition: opacity 0.3s ease;
+  }
+  
+  .gallery-card h4 {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-card p {
+    color: #555;
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+  
+  .gallery-card:hover .gallery-desc {
+    opacity: 1;
+  }
+  
+  @media (max-width: 768px) {
+    #gallery h2 {
+      font-size: 1.5rem;
+    }
+    .gallery-desc p {
+      font-size: 0.85rem;
+    }
+  }
+  
